@@ -1,0 +1,83 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  margin:0;
+  width:100%;
+  background-color: black;
+    min-height: 80px;
+}
+ul{
+    display: flex;
+    margin-right: 50px;
+   
+  
+}
+li{
+    list-style-type: none;
+    margin-right: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
+a{
+    text-decoration: none;
+    color:rgb(253, 231, 29);
+}
+span{
+    color:white;
+    font-weight: bold;
+}
+.logo{
+    color:rgb(253, 231, 29);
+    margin-left: 50px;
+}
+.ss{
+    color:white;
+   
+}
+i{
+    color:rgb(253, 231, 29);
+}
+body{
+    background-image: url(https://iasbh.tmgrup.com.tr/0cb3be/1200/627/0/0/816/427?u=https://isbh.tmgrup.com.tr/sbh/2021/04/08/suleyman-cakir-kimdir-kurtlar-vadisi-oyuncusu-suleyman-cakir-neden-oldu-1617862091319.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+.main{
+    width:300px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    
+}
+p{
+  
+    width:170px;
+    color:white;
+    text-align: center;
+    font-weight: 900;
+    
+}
+.sr{
+    width:340px;
+    text-align: center;
+font-size: 40px;
+}
+.nn{
+    text-align: center;
+    width:350px;
+    letter-spacing: 2px;
+}
+
+button{
+    background-color: gray;
+    color: whitesmoke;
+    padding:10px 18px;
+    border:none;
+    border-radius: 12px;
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+.row{
+ width:100px;
+
+ display: inline-block;
+    
+}
+.f{
+    margin-top:100px;
+    margin-left:100px;
+    border: 3px black solid;
+    border-radius: 20px;
+    background-color: rgb(60, 235, 127);
+    padding: 30px;
+    box-sizing: border-box;
+    
+    
+    width:350px;
+}
+button{
+   margin: auto;
+}
+
+
+
+
+
+*{margin:2px;
+padding:0;
+}
+ul li{
+    list-style: none;
+    box-sizing: border-box;
+    padding-bottom:15px;
+    background-color: rgb(0, 174, 255);
+  
+    
+  
+    
+}
+span{
+    padding-bottom: 5px;
+    border-bottom: 1px gray solid;;
+    font-size: 45px;
+   
+}
+ul{
+    border: 1px solid gray;
+    width:300px;
+    position:absolute;
+    left:150px;
+    top:120px;
+}
+i{
+    margin-right: 10px;
+    font-size: 25px;
+   
+    
+}
