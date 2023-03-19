@@ -1,0 +1,97 @@
+/* .box{
+    width:100px;
+    height:100px;
+    background-color: aqua;
+    position: absolute;
+    animation-name: first;
+    animation-duration: 5s;
+    animation-timing-function:linear;
+    animation-delay: 1s;
+    
+}
+@keyframes first{
+    0%{
+        right:15px;
+        
+    }
+    25%{
+        bottom:15px;
+       
+    }
+    50%{
+        left:15px;
+      
+    }
+    75%{
+       
+        top:15px;
+    }
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+  
+
+}
+.box{
+    background-color: aqua;
+    margin:5px;
+}
+.box:first-child{
+    grid-column: 1/4;
+}
+.box:nth-child(2){
+    grid-row: 2/4;
+    grid-column: 1/3;
+    
+
+} */
+
+
+
+
+
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    text-align: center;
+  
+
+}
+.box{
+    background-color: blueviolet;
+    margin: 6px;
+}
+.box:first-child{
+    grid-column: 1/3;
+    
+
+}
+.box:nth-child(2){
+    width:50px
+}
+.box:nth-child(3){
+    width:250px;
+    height: 400px;
+}
+.box:last-child{
+    grid-column: 1/3;
+}
